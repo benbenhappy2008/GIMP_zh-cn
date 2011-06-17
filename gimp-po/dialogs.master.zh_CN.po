@@ -7,12 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help 2-pot\n"
 "POT-Creation-Date: 2011-02-22 18:59+0000\n"
-"PO-Revision-Date: 2011-05-27 22:10+0800\n"
+"PO-Revision-Date: 2011-06-17 10:43+0800\n"
 "Last-Translator: Hansen Hu <softrank.net@gmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -214,19 +217,19 @@ msgstr "工具对话框"
 
 #: src/dialogs/tools-dialog.xml:35(para)
 msgid "The <quote>Tools</quote> dialog is used mainly to control the appearance of the Toolbox. It allows you to customize the set of tools for which icons are shown in the Toolbox, and the order in which the icons are arranged. Probably the most common use for it is to make the Color tools available directly from the Toolbox. You can also use the Tools dialog to select a tool by clicking on its symbol, but for this purpose you might as well just use the Toolbox."
-msgstr ""
+msgstr "<quote>工具</quote>对话框主要用于控制工具栏的外观，您可以自定义哪些工具的图标显示在工具栏上，并且可以改变图标的排列顺序。这最有可能被用于让颜色工具直接显示在工具栏上。您也可以通过单击工具对话框中的图标来使用相应的工具，不过您也可以从工具栏上直接使用它们。"
 
 #: src/dialogs/tools-dialog.xml:47(para)
 msgid "The <quote>Tools</quote> dialog is a dockable dialog; see the section <xref linkend=\"gimp-concepts-docks\"/> for help on manipulating it."
-msgstr ""
+msgstr "<quote>工具</quote>对话框是一个可停靠的对话框，参见<xref linkend=\"gimp-concepts-docks\"/>章节获取关于如何操作的帮助。"
 
 #: src/dialogs/tools-dialog.xml:57(para)
 msgid "from the image menu: <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Tools</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从图像菜单：<menuchoice><guimenu>窗口</guimenu><guisubmenu>可停靠对话框</guisubmenu><guimenuitem>工具</guimenuitem></menuchoice>。"
 
 #: src/dialogs/tools-dialog.xml:67(para)
 msgid "from the Tab menu in any dockable dialog by clicking on <guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/></guiicon> and selecting <menuchoice><guimenu>Add Tab</guimenu><guimenuitem>Tools</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从任意可停靠对话框的选项卡菜单：单击<guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/></guiicon>并选择<menuchoice><guimenu>添加选项卡</guimenu><guimenuitem>工具</guimenuitem></menuchoice>。"
 
 #: src/dialogs/tools-dialog.xml:82(title)
 #: src/dialogs/templates-dialog.xml:86(title)
@@ -235,140 +238,140 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:156(term)
 #: src/dialogs/fonts-dialog.xml:102(term)
 msgid "Grid/List modes"
-msgstr ""
+msgstr "网格/列表模式"
 
 #: src/dialogs/tools-dialog.xml:83(para)
 msgid "In the Tab menu, you can choose between <guimenuitem>View as Grid</guimenuitem> and <guimenuitem>View as List</guimenuitem>. In Grid mode, the tools are laid out in a rectangular array. In List mode, they are lined up vertically, with each row showing the tool name, tool icon, and an <quote>eye</quote> icon if the tool is currently visible in the Toolbox."
-msgstr ""
+msgstr "在选项卡上，您可以在<guimenuitem>网格视图</guimenuitem>和<guimenuitem>列表视图</guimenuitem>间切换。在网格模式下，工具按照矩形阵列方式显示，在列表模式下，它们垂直排放，每行显示工具的名称、图标和一个<quote>眼睛</quote>图标（如果这个工具目前在选项卡中可见）。"
 
 #: src/dialogs/tools-dialog.xml:101(title)
 msgid "Using the Tools dialog"
-msgstr ""
+msgstr "使用工具对话框"
 
 #: src/dialogs/tools-dialog.xml:102(para)
 msgid "The most basic thing you can do is to select a tool by clicking on its icon: this has the same effect as clicking on an icon in the Toolbox. You can do this in either List or Grid mode: the other functions of the dialog are available only in List mode."
-msgstr ""
+msgstr "您可以做的最基本的操作是通过单击图标选择一个工具：这和在工具栏上单击这个图标的效果是相同的。在网格和列表模式下您都可以这么做，而对话框的其他功能仅在列表模式下可用。"
 
 #: src/dialogs/tools-dialog.xml:108(para)
 msgid "The most important function of the <quote>Tools</quote> dialog is to let you choose which tools to make visible in the Toolbox, by toggling the <quote>eye</quote> icons that appear on the left side of each row in List mode. In particular, if you use the Color tools a lot, you may benefit from toggling visibility on for them here."
-msgstr ""
+msgstr "<quote>工具</quote>对话框最大的作用是让您能够通过切换列表模式下图标左侧的<quote>眼睛</quote>图标选择哪些工具应该显示在工具栏上。例如，如果您常常使用颜色工具，切换它在工具栏上的可见性也许会让您受益。"
 
 #: src/dialogs/tools-dialog.xml:115(para)
 msgid "You can also change the order of tools in the Toolbox, by clicking on an item in the <quote>Tools</quote> dialog, in List mode, and dragging it up or down in the list. Selected item can be also moved by clicking <guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-raise.png\"/></guiicon> or <guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-lower.png\"/></guiicon> icon at the bottom of the dialog. If you screw things up, you can always press the <quote>Reset</quote><guiicon><inlinegraphic fileref=\"images/dialogs/stock-reset-16.png\"/></guiicon> button at the bottom of the dialog, to restore the defaults for order and visibility."
-msgstr ""
+msgstr "在列表模式下，您也可以通过单击<quote>工具</quote>对话框中的项目，并在列表中上下拖动它们来改变它们出现在工具栏上的顺序。已经选中的工具也可以通过对话框底部的<guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-raise.png\"/></guiicon>或<guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-lower.png\"/></guiicon>图标来移动位置，您也可以随时按下对话框底部的<quote>重置</quote><guiicon><inlinegraphic fileref=\"images/dialogs/stock-reset-16.png\"/></guiicon>按钮来恢复工具在工具栏上的默认顺序和可见性。"
 
 #: src/dialogs/tools-dialog.xml:133(para)
 msgid "Right-clicking inside the dialog produces the <quote>Tools</quote> menu, which gives you an alternative way of toggling visibility or restoring the defaults."
-msgstr ""
+msgstr "在对话框中单击鼠标右键将弹出<quote>工具</quote>菜单，为您提供了切换可见性和恢复默认设置的另一种方法。"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/templates-dialog.xml:29(None)
 msgid "@@image: 'images/dialogs/templates-dialog.png'; md5=a19cd4f4d8dd24e2b1ec46ee05164229"
-msgstr ""
+msgstr "@@image: 'images/dialogs/templates-dialog.png'; md5=a19cd4f4d8dd24e2b1ec46ee05164229"
 
 #: src/dialogs/templates-dialog.xml:14(title)
 msgid "Templates Dialog"
-msgstr ""
+msgstr "模板对话框"
 
 #: src/dialogs/templates-dialog.xml:18(secondary)
 #: src/dialogs/templates-dialog.xml:21(primary)
 msgid "Templates"
-msgstr ""
+msgstr "模板"
 
 #: src/dialogs/templates-dialog.xml:25(title)
 msgid "The Templates dialog"
-msgstr ""
+msgstr "模板对话框"
 
 #: src/dialogs/templates-dialog.xml:34(para)
 msgid "Templates are templates for an image format to be created. GIMP offers you a lot of templates and you can create your owns. When you create a New image, you can access to the list of existing templates but you can't manage them. The <quote>Templates</quote> dialog allows you to manage all these templates."
-msgstr ""
+msgstr "模板是用于确定将要创建的图像格式的模板。GIMP提供了许多模板，而您也可以创建您自己的模板。当您创建一个新图像时，您可以看到现存的模板列表但无法管理它们。通过<quote>模板</quote>对话框，您可以自行管理所有这些模板。"
 
 #: src/dialogs/templates-dialog.xml:44(para)
 msgid "The <quote>Templates</quote> dialog is a dockable dialog; see the section <xref linkend=\"gimp-concepts-docks\"/> for help on manipulating it."
-msgstr ""
+msgstr "<quote>模板</quote>对话框是一个可停靠的对话框，参见<xref linkend=\"gimp-concepts-docks\"/>章节获取关于如何操作的帮助。"
 
 #: src/dialogs/templates-dialog.xml:54(para)
 msgid "from the image menu: <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Templates</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从图像菜单：<menuchoice><guimenu>窗口</guimenu><guisubmenu>可停靠对话框</guisubmenu><guimenuitem>模板</guimenuitem></menuchoice>。"
 
 #: src/dialogs/templates-dialog.xml:64(para)
 msgid "from the Tab menu in any dockable dialog by clicking on <guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/></guiicon> and selecting <menuchoice><guimenu>Add Tab</guimenu><guimenuitem>Templates</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从任意可停靠对话框的选项卡菜单：单击<guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/></guiicon>并选择<menuchoice><guimenu>添加选项卡</guimenu><guimenuitem>模板</guimenuitem></menuchoice>。"
 
 #: src/dialogs/templates-dialog.xml:79(title)
 msgid "Using the Templates dialog"
-msgstr ""
+msgstr "使用模板对话框"
 
 #: src/dialogs/templates-dialog.xml:80(para)
 msgid "You select a template by clicking on its icon. Right clicking reveals a local menu that offers the same functions as buttons."
-msgstr ""
+msgstr "您通过单击图标选择相应的模板。右键单击将显示与按钮功能相同的快捷菜单。"
 
 #: src/dialogs/templates-dialog.xml:87(para)
 msgid "In the Tab menu for the <quote>Templates</quote> dialog, you can choose between <guimenuitem>View as Grid</guimenuitem> and <guimenuitem>View as List</guimenuitem>. In Grid mode, templates are laid out in a rectangular array of identical icons (unless you gave them a particular icon, as we will see later). Only the name of the selected template is displayed. In List mode, they are lined up vertically; icons are identical too; all names are displayed."
-msgstr ""
+msgstr "在<quote>模板</quote>对话框的选项卡菜单中，您可以在<guimenuitem>网格视图</guimenuitem>和<guimenuitem>列表视图</guimenuitem>间切换。在网格模式，模板图标按照矩形阵列方式显示（模板的图标都是统一的，除非您指定了特定的图标，我们稍后会阐述这个问题），并且只有被选中的模板名称被显示出来。在列表模式，模板垂直排列，并且所有的模板名称都被显示出来。"
 
 #: src/dialogs/templates-dialog.xml:97(para)
 msgid "In this Tab menu, the <guilabel>Preview Size</guilabel> option allows you to change the size of thumbnails."
-msgstr ""
+msgstr "在选项卡菜单，<guilabel>预览尺寸</guilabel>选项允许您改变缩略图的尺寸。"
 
 #: src/dialogs/templates-dialog.xml:102(para)
 msgid "<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> in a list view opens a search field. See <xref linkend=\"gimp-dock-view-as-list\"/>"
-msgstr ""
+msgstr "在列表模式下按下<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>将开启搜索域，参见<xref linkend=\"gimp-dock-view-as-list\"/>"
 
 #: src/dialogs/templates-dialog.xml:111(title)
 #: src/dialogs/buffers-dialog.xml:187(title)
 #: src/dialogs/brushes-dialog.xml:266(title)
 msgid "Buttons at the bottom"
-msgstr ""
+msgstr "底部的按钮"
 
 #: src/dialogs/templates-dialog.xml:112(para)
 msgid "The buttons at the bottom of the dialog allow you to operate on templates in several ways:"
-msgstr ""
+msgstr "通过对话框底部的按钮，您可以按以下方式来操作模板："
 
 #: src/dialogs/templates-dialog.xml:122(phrase)
 msgid "Create a new image from the selected template"
-msgstr ""
+msgstr "从选中的模板创建一个新图像"
 
 #: src/dialogs/templates-dialog.xml:127(para)
 msgid "Clicking on this button opens the dialog <link linkend=\"gimp-file-new\">Create a new image</link> on the model of the selected template."
-msgstr ""
+msgstr "单击这个按钮将参照选中模板的模式打开<link linkend=\"gimp-file-new\">创建新图像</link>对话框。"
 
 #: src/dialogs/templates-dialog.xml:139(phrase)
 msgid "Create a new template"
-msgstr ""
+msgstr "创建新模板"
 
 #: src/dialogs/templates-dialog.xml:144(para)
 msgid "Clicking on this button opens the <link linkend=\"edit-template-dialog\">New template</link> dialog, identical to the Edit Template dialog, that we will see below."
-msgstr ""
+msgstr "单击这个按钮将打开<link linkend=\"edit-template-dialog\">新建模板</link>对话框，这个对话框与编辑模板对话框相同，我们将在后面进行阐述。"
 
 #: src/dialogs/templates-dialog.xml:157(phrase)
 msgid "Duplicate the selected template"
-msgstr ""
+msgstr "复制选中的模板"
 
 #: src/dialogs/templates-dialog.xml:162(para)
 msgid "Clicking on this button opens the Edit Template dialog that we are going to study now."
-msgstr ""
+msgstr "单击这个按钮将打开下面说到的编辑模板对话框。"
 
 #: src/dialogs/templates-dialog.xml:173(phrase)
 msgid "Edit the selected template"
-msgstr ""
+msgstr "编辑选中的模板"
 
 #: src/dialogs/templates-dialog.xml:178(para)
 msgid "Clicking on this button opens the <link linkend=\"edit-template-dialog\">Edit Template</link> dialog."
-msgstr ""
+msgstr "单击这个按钮将打开<link linkend=\"edit-template-dialog\">编辑模板</link>对话框。"
 
 #: src/dialogs/templates-dialog.xml:186(term)
 msgid "Delete the selected template"
-msgstr ""
+msgstr "删除选中的模板"
 
 #: src/dialogs/templates-dialog.xml:188(para)
 msgid "Guess what?"
-msgstr ""
+msgstr "猜猜会发生什么？"
 
 #: src/dialogs/templates-dialog.xml:190(para)
 msgid "Every template is stored in a <filename>templaterc</filename> file at your personal <acronym>GIMP</acronym> directory. If you want to restore some deleted templates, you can copy or append template entries to your file from the master <filename>templaterc</filename> file at the <filename class=\"directory\">etc/gimp/2.0</filename> directory of the <acronym>GIMP</acronym>'s system folder."
-msgstr ""
+msgstr "每个模板都被保存在您个人的<acronym>GIMP</acronym>下的一个<filename>templaterc</filename>文件中。如果您想要恢复一些已经删除的模板，您可以从<acronym>GIMP</acronym>的系统文件夹<filename class=\"directory\">etc/gimp/2.0</filename>目录下的主<filename>templaterc</filename>文件复制或扩展模板条目到您的文件中。"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -378,56 +381,56 @@ msgstr ""
 #: src/dialogs/error-console.xml:52(None)
 #: src/dialogs/error-console.xml:136(None)
 msgid "@@image: 'images/dialogs/stock-menu-left-12.png'; md5=bb67d499c4560430d82231784a8d5049"
-msgstr ""
+msgstr "@@image: 'images/dialogs/stock-menu-left-12.png'; md5=bb67d499c4560430d82231784a8d5049"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/sample-points.xml:103(None)
 msgid "@@image: 'images/dialogs/sample-points-menu.png'; md5=0efc1654e0e0a963df145dd5db754a9c"
-msgstr ""
+msgstr "@@image: 'images/dialogs/sample-points-menu.png'; md5=0efc1654e0e0a963df145dd5db754a9c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/sample-points.xml:115(None)
 msgid "@@image: 'images/dialogs/sample-points-dialog.png'; md5=388360ee919380f78082b25567390a78"
-msgstr ""
+msgstr "@@image: 'images/dialogs/sample-points-dialog.png'; md5=388360ee919380f78082b25567390a78"
 
 #: src/dialogs/sample-points.xml:12(title)
 msgid "Sample Points Dialog"
-msgstr ""
+msgstr "采样点对话框"
 
 #: src/dialogs/sample-points.xml:15(secondary)
 #: src/dialogs/sample-points.xml:18(primary)
 msgid "Sample Points"
-msgstr ""
+msgstr "采样点"
 
 #: src/dialogs/sample-points.xml:20(para)
 msgid "While the <link linkend=\"gimp-tool-color-picker\">Color Picker</link> can display color information about one pixel, the <quote>Sample Points</quote> dialog can display the data of four pixels of the active layer or the image, at the same time. Another important difference is that the values of these points are changed in real time as you are working on the image."
-msgstr ""
+msgstr "<link linkend=\"gimp-tool-color-picker\">拾色器</link>能够显示一个像素的颜色信息，而<quote>采样点</quote>对话框可以同时显示活动图层上的四个像素点的数据。另一个重要的区别在于，这些采样点的值会随着您处理图像的过程而实时改变。"
 
 #: src/dialogs/sample-points.xml:30(para)
 msgid "The <quote>Sample Points</quote> dialog is a dockable dialog; see the section <xref linkend=\"gimp-concepts-docks\"/> for help on manipulating it."
-msgstr ""
+msgstr "<quote>采样点</quote>对话框是一个可停靠的对话框，参见<xref linkend=\"gimp-concepts-docks\"/>章节获取关于如何操作的帮助。"
 
 #: src/dialogs/sample-points.xml:40(para)
 msgid "from the image menu: <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Sample Points</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从图像菜单：<menuchoice><guimenu>窗口</guimenu><guisubmenu>可停靠对话框</guisubmenu><guimenuitem>采样点</guimenuitem></menuchoice>。"
 
 #: src/dialogs/sample-points.xml:50(para)
 msgid "from the Tab menu in any dockable dialog by clicking on <placeholder-1/> and selecting <menuchoice><guimenu>Add Tab</guimenu><guimenuitem>Sample Points</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "从任意可停靠对话框的选项卡菜单：单击<placeholder-1/>并选择<menuchoice><guimenu>添加选项卡</guimenu><guimenuitem>采样点</guimenuitem></menuchoice>。"
 
 #: src/dialogs/sample-points.xml:68(title)
 msgid "Using sample points"
-msgstr ""
+msgstr "使用采样点"
 
 #: src/dialogs/sample-points.xml:69(para)
 msgid "To create a sample point, <keycap>Ctrl</keycap>-click on one of the two measure rules of the image window and drag the mouse pointer. Two perpendicular guides appear. The sample point is where both guides intersect. You can see its coordinates in the lower left corner and the information bar of the image window. Release the mouse button."
-msgstr ""
+msgstr "要创建一个采样点，鼠标在图像窗口的两个标尺中的一个之上时按住<keycap>Ctrl</keycap>并拖动鼠标，两条相互垂直的辅助线就会出现，两条辅助线的交点就是采样点。您可以在左下角和图像窗口的信息栏看到它的坐标。释放鼠标左键。"
 
 #: src/dialogs/sample-points.xml:76(para)
 msgid "By default, this sample point comes with a round mark and an order number. You can cancel these marks by unchecking the <guilabel>Show Sample Points</guilabel> option in the <guilabel>View</guilabel> menu."
-msgstr ""
+msgstr "默认情况下，采样点会显示为一个圆形标记和一个序号。您可以取消勾选<guilabel>视图</guilabel>菜单下的<guilabel>显示采样点</guilabel>选项来取消这些标记。"
 
 #: src/dialogs/sample-points.xml:82(para)
 msgid "The <quote>Sample Points</quote> dialog should automatically open when you create a sample point. This is not the case; you have to open it manually."
